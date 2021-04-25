@@ -14,7 +14,7 @@ def times_insertion():
 
     :return:
     """
-    vart1 = input('how many times website must by open?')
+    vart1 = input('how many times website must by open? ')
     return int(vart1)
 
 b=times_insertion()

@@ -14,7 +14,7 @@ def www_insertion():
 
     :return:
     """
-    vart1 = input('What website you want open?')
+    vart1 = input('What website you want open? ')
     return vart1
 
 a=www_insertion()

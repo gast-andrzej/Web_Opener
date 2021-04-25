@@ -27,8 +27,7 @@ def reqr_func(_vart1, _vart2):
     """
     if _vart1 > 0:
         return requests.get(f'http://{_vart2}'), print('connected'), reqr_func(_vart1-1, _vart2)
-    else:
-        return print('done')
+    return print('done')
 
 
 
